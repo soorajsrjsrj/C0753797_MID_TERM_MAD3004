@@ -12,14 +12,22 @@ class Product: Manufacturer{
     var productName: String
     var productPrice: String
     var productQuantity: Int
-    override init() {
+      override init() {
+      
         productId = String()
         productName = String()
         productPrice = String()
         productQuantity = Int()
     }
     
-}
+    override func display() {
+        <#code#>
+    }
+        
+        
+    }
+    
+
 
 
 

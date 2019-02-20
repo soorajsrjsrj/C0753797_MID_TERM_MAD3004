@@ -7,3 +7,13 @@
 //
 
 import Foundation
+protocol IDisplay {
+    func display()
+}
+
+
+
+
+
+
+

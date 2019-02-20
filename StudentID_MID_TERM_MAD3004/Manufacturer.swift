@@ -7,12 +7,15 @@
 //
 
 import Foundation
-class Manufacturer{
+class Manufacturer: IDisplay{
     var ManufacturerId: String
     var ManufacturerName : String
     init() {
         ManufacturerId = String()
         ManufacturerName = String()
+    }
+    func display() {
+        <#code#>
     }
     
 }

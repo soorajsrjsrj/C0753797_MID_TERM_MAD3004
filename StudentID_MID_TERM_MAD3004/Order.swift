@@ -7,3 +7,17 @@
 //
 
 import Foundation
+class Order{
+    var orderId: String
+    var orderDate: Date
+    var productarray: [Product]
+    var orderTotal: Int
+    
+    init() {
+        
+    }
+    override func display(){
+        
+    }
+    
+}
