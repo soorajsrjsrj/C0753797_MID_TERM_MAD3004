@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9BFA417D221E19A500C76DE5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA417C221E19A500C76DE5 /* main.swift */; };
+		9BFA4184221E1A7400C76DE5 /* Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA4183221E1A7400C76DE5 /* Manufacturer.swift */; };
+		9BFA4186221E1A8900C76DE5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA4185221E1A8900C76DE5 /* Product.swift */; };
+		9BFA4188221E1AAF00C76DE5 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA4187221E1AAF00C76DE5 /* IDisplay.swift */; };
+		9BFA418A221E1ABF00C76DE5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA4189221E1ABF00C76DE5 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		9BFA4179221E19A500C76DE5 /* StudentID_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudentID_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFA417C221E19A500C76DE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BFA4183221E1A7400C76DE5 /* Manufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
+		9BFA4185221E1A8900C76DE5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9BFA4187221E1AAF00C76DE5 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		9BFA4189221E1ABF00C76DE5 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				9BFA417C221E19A500C76DE5 /* main.swift */,
+				9BFA4183221E1A7400C76DE5 /* Manufacturer.swift */,
+				9BFA4185221E1A8900C76DE5 /* Product.swift */,
+				9BFA4187221E1AAF00C76DE5 /* IDisplay.swift */,
+				9BFA4189221E1ABF00C76DE5 /* Order.swift */,
 			);
 			path = StudentID_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFA4188221E1AAF00C76DE5 /* IDisplay.swift in Sources */,
+				9BFA4184221E1A7400C76DE5 /* Manufacturer.swift in Sources */,
+				9BFA418A221E1ABF00C76DE5 /* Order.swift in Sources */,
 				9BFA417D221E19A500C76DE5 /* main.swift in Sources */,
+				9BFA4186221E1A8900C76DE5 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
