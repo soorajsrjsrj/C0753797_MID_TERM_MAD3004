@@ -10,8 +10,9 @@ import Foundation
 class Manufacturer{
     var ManufacturerId: String
     var ManufacturerName : String
-    init(<#parameters#>) {
-        <#statements#>
+    init() {
+        ManufacturerId = String()
+        ManufacturerName = String()
     }
     
 }

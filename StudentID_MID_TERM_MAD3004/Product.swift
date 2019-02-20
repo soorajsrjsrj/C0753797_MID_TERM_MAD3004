@@ -7,3 +7,22 @@
 //
 
 import Foundation
+class Product: Manufacturer{
+    var productId: String
+    var productName: String
+    var productPrice: String
+    var productQuantity: Int
+    override init() {
+        productId = String()
+        productName = String()
+        productPrice = String()
+        productQuantity = Int()
+    }
+    
+}
+
+
+
+
+
+
