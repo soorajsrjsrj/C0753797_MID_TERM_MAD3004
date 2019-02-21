@@ -22,6 +22,9 @@ class Order{
         
         
     }
+ /*   init(orderid:String,) {
+        <#statements#>
+    } */
     func createproductfororder() -> [Product] {
         let p1 = Product( "1","qwe",prodtid:"1",productname:"abcd",productprice:52.00,_productquantity:5)
         let p2 = Product( "1","qwe",prodtid:"1",productname:"abcd",productprice:52.00,_productquantity:5)
@@ -29,15 +32,20 @@ class Order{
         let p4 = Product( "1","qwe",prodtid:"1",productname:"abcd",productprice:52.00,_productquantity:5)
         let p5 = Product( "1","qwe",prodtid:"1",productname:"abcd",productprice:52.00,_productquantity:5)
          productarray = [p1,p2,p3,p4,p5]
+        
         return productarray
 
     }
     func createOrder() -> Product{
-        let order = order
+       // let order = order
+        let order = Order()
+        let products = createproductfororder()
+       // order.productarray
+        
+        return Product( "1","qwe",prodtid:"1",productname:"abcd",productprice:52.00,_productquantity:5)
+        
         
     }
-    
-  
-    
+
     
 }

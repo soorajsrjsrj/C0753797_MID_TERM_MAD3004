@@ -41,8 +41,8 @@ class Product: Manufacturer{
 
     
     override func display() {
-        print(productQuantity, productName, productPrice, productQuantity, ManufacturerId , ManufacturerName)
-       
+        print(" \(ManufacturerId) \t \(ManufacturerName) \t \(productId)\t \(productName)\t \(productPrice) \t \(productQuantity)")
+     
        
     }
     
