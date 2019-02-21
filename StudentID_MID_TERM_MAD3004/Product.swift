@@ -20,20 +20,29 @@ class Product: Manufacturer{
         productPrice = Float()
         productQuantity = Int()
     } */
-   init(prodtid: String,productname:String,productprice:Float ,_productquantity: Int) {
-   // super.init(Man,Manname)
-    super.init()
+   /* init(){
+        self.productId=String()
+        self.productName=String()
+        self.productPrice=0.0
+        self.productQuantity=0
+        super.init()
+    } */
+   init(_ Man:String,_ Manname:String,prodtid: String,productname:String,productprice:Float ,_productquantity: Int) {
+   
     self.productId = prodtid
     self.productName = productname
     self.productPrice = productprice
     self.productQuantity = _productquantity
+    super.init(Man,Manname)
+    
         
     }
     
 
     
     override func display() {
-        print(productQuantity)
+        print(productQuantity, productName, productPrice, productQuantity, ManufacturerId , ManufacturerName)
+       
        
     }
     
