@@ -10,12 +10,13 @@ import Foundation
 class Manufacturer: IDisplay{
     var ManufacturerId: String
     var ManufacturerName : String
-    init() {
-        ManufacturerId = String()
-        ManufacturerName = String()
+    init(_ Man:String,_ Manname:String) {
+       ManufacturerId = Man
+        ManufacturerName = Manname
+        
     }
     func display() {
-        <#code#>
+       
     }
     
 }

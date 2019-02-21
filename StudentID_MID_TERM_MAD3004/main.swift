@@ -7,6 +7,11 @@
 //
 
 import Foundation
+//var p = Product(Man:"1",Manname:"abc",prodtid:"1",productname:"abcd",productprice:52.00,_productquantity:5)
+var p = Product(prodtid:"1",productname:"abcd",productprice:52.00,_productquantity:5)
+var m = Manufacturer("abc", "space")
+print(m)
 
-print("Hello, World!")
+print(p)
+
 

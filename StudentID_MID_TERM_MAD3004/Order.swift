@@ -10,14 +10,19 @@ import Foundation
 class Order{
     var orderId: String
     var orderDate: Date
-    var productarray: [Product]
-    var orderTotal: Int
+    var productarray: [Product]()
+    var orderTotal: Float
     
     init() {
+        self.orderId = "1"
+        self.orderDate = Date()
+       self.productarray = []
+        self.orderTotal = Float()
+       
+        
         
     }
-    override func display(){
-        
-    }
+  
+    
     
 }
